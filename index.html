@@ -1,1 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Antal | Cloud & Data Engineer</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin: 1.5rem 0;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            margin: 1rem 0 0.5rem;
+        }
+        
+        .contact-info {
+            margin: 1rem 0;
+        }
+        
+        .contact-info a {
+            color: var(--light);
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        
+        .contact-info a:hover {
+            color: var(--accent);
+        }
+        
+        .experience, .education, .projects {
+            margin-bottom: 2rem;
+        }
+        
+        .job, .degree, .project {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .job-header, .degree-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .company, .school {
+            font-weight: bold;
+            color: var(--dark);
+        }
+        
+        .date {
+            color: #666;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .skill-category {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .skill-category h3 {
+            color: var(--primary);
+        }
+        
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .certificate {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .job-header, .degree-header {
+                flex-direction: column;
+            }
+            
+            .date {
+                margin-top: 0.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ashish Antal</h1>
+            <p>Cloud & Data Engineer</p>
+            <div class="contact-info">
+                <a href="mailto:ashishash9015@gmail.com">ashishash9015@gmail.com</a>
+                <a href="tel:9971733243">9971733243</a>
+                <a href="#">Gurugram, Haryana</a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </header>
 
+    <main class="container">
+        <section class="experience">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <span class="company">Axtelica Solutions Private Limited</span>
+                    <span class="date">Jan 2025 – Mar 2025</span>
+                </div>
+                <p><em>Cloud Data Engineering</em></p>
+                <ul>
+                    <li>Worked on Kafka and its configuration</li>
+                    <li>Understanding of ETL processes and data pipelines</li>
+                    <li>Familiarity with both data engineering (SQL, Python) and ML libraries</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-header">
+                    <span class="company">Prodigy InfoTech</span>
+                    <span class="date">Aug 2023 – Dec 2023</span>
+                </div>
+                <p><em>Data Analytic Intern</em></p>
+                <ul>
+                    <li>Worked on projects exploring relationships between variables and identifying patterns</li>
+                    <li>Analyzed trends in the data</li>
+                    <li>Performed Exploratory Data Analysis on given data to retrieve trends</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            
+            <div class="degree">
+                <div class="degree-header">
+                    <span class="school">Dronacharya College of Engg (MDU)</span>
+                    <span class="date">2020-2024</span>
+                </div>
+                <p><em>Computer Science and Engineering</em></p>
+                <p>CGPA: 8.0</p>
+            </div>
+            
+            <div class="degree">
+                <div class="degree-header">
+                    <span class="school">S.D Memorial Sr Sec School</span>
+                    <span class="date">2020</span>
+                </div>
+                <p><em>12th (PCM)</em></p>
+                <p>Percentage: 80%</p>
+            </div>
+            
+            <div class="degree">
+                <div class="degree-header">
+                    <span class="school">H M Sr Sec School</span>
+                    <span class="date">2018</span>
+                </div>
+                <p><em>10th</em></p>
+                <p>Percentage: 75%</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                        <li>Jira</li>
+                        <li>Power BI</li>
+                        <li>HTML</li>
+                        <li>Maxwell Daemon</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Applications</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Unreal Engine</li>
+                        <li>Jira</li>
+                        <li>Podman</li>
+                        <li>Cloud Codespace</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>DBMS</li>
+                        <li>Dynamic Configuration</li>
+                        <li>Debezium</li>
+                        <li>Podman</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Parking Management System (April 2023)</h3>
+                <p>Created the model using OpenCV, Pandas, and acquired data. The system is built using Python language with the main purpose of managing parking in commercial sectors.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Market Sale Prediction (March 2024)</h3>
+                <p>Machine learning model which predicts or classifies variables using numerical data input with an output accuracy of 98%, better than normal classification models.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Weather Prediction (September 2023)</h3>
+                <p>Model to predict upcoming weather using old weather data reports with the help of machine learning and data trends. Created using libraries such as Matplotlib, Seaborn, NumPy, Pandas with data acquired from airport sites.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Other Projects</h3>
+                <p><a href="#" target="_blank">Click here to view more projects</a></p>
+            </div>
+        </section>
+
+        <section class="certificates">
+            <h2>Certificates</h2>
+            <div class="certificates">
+                <div class="certificate">
+                    <h3>Machine Learning</h3>
+                    <p>Great Learning</p>
+                </div>
+                
+                <div class="certificate">
+                    <h3>SQL</h3>
+                    <p>Simplilearn</p>
+                </div>
+                
+                <div class="certificate">
+                    <h3>Data Science</h3>
+                    <p>Simplilearn</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ashish Antal. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
